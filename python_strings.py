@@ -8,7 +8,10 @@
 #       -set this equal to your birth year (doesn't have to be real should be less then 100 yrs ago)
 #   - current_year
 #       -set this equal to 2020
-
+my_first_name = 'corey'
+my_last_name = 'Anderson'
+my_year_of_birth ='1998'
+current_year = '2020'
 
 
 
@@ -20,9 +23,10 @@
 #       - second letter of your last name (use the -index)
 #       - first two letter of your first name (use the +index)
 #       - second two letter of your last name (use the -index)
-
-
-
+print (my_first_name)
+print(my_last_name)
+print (my_first_name[0])
+print (my_last_name[1])
 
 #TODO Combining Strings
 #   - Print the following items (one per line) (print using variables)
