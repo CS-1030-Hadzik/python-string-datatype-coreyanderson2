@@ -25,15 +25,18 @@ current_year = '2020'
 #       - second two letter of your last name (use the -index)
 print (my_first_name)
 print(my_last_name)
-print (my_first_name[0])
-print (my_last_name[1])
+print (my_first_name [+0])
+print (my_last_name [-1])
+print (my_first_name[+0,+1])
+print (my_last_name [-1,-2])
 
 #TODO Combining Strings
 #   - Print the following items (one per line) (print using variables)
 #       -first name and last name combined
 #       -first name six times
-
-
+c = my_first_name + my_last_name
+print (c)
+print (my_first_name)
 
 
 
