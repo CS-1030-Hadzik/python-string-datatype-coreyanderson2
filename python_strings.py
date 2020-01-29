@@ -27,16 +27,16 @@ print (my_first_name)
 print(my_last_name)
 print (my_first_name [+0])
 print (my_last_name [-1])
-print (my_first_name[+0,+1])
-print (my_last_name [-1,-2])
+print (my_first_name[+0:+1])
+print (my_last_name [-1:-2])
 
 #TODO Combining Strings
 #   - Print the following items (one per line) (print using variables)
 #       -first name and last name combined
 #       -first name six times
-c = my_first_name + my_last_name
+c = my_first_name + (' ') + my_last_name
 print (c)
-print (my_first_name)
+print (my_first_name * 6) 
 
 
 
@@ -44,8 +44,8 @@ print (my_first_name)
 #   - Print the following items (one per line) (print using variables)
 #       - first name last name -was born in- year of birth
 #       - first name last name -was born in- year of birth. first name -enjoyed celebrating- current year
-
-
+print (c, 'was born in', my_year_of_birth)
+print (c, 'was born in', my_year_of_birth, my_first_name, 'enjoyed celebrating',current_year)
 
 # TODO Escape characters
 #   - Print the following items (one per line) (print using variables)
